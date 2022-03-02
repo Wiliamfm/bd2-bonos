@@ -25,7 +25,7 @@ Average: 0.1057
 
 --Create index
 
---create index shipmethod_index on purchasing.shipmethod using hash (name);
+create index shipmethod_index on purchasing.shipmethod using hash (name);
 
 /*
 times with index (seconds):
