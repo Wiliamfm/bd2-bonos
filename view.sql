@@ -1,3 +1,5 @@
+--list territories that had sales
+
 create or replace view territories_with_sales as
 	select
 		distinct(t.name),
